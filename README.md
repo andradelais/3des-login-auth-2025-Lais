@@ -40,7 +40,6 @@ A API expõe duas rotas principais que demonstram o fluxo de autenticação e ac
 
 O fluxo de trabalho da API, abrangendo tanto o processo de login quanto o acesso a rotas protegidas, pode ser visualizado no Diagrama de Atividades UML abaixo. Ele ilustra as etapas sequenciais, as decisões baseadas na validação de credenciais e tokens, e as respostas correspondentes enviadas ao cliente.
 
-![Diagrama de Atividades UML para API JWT](./diagrama_atividades_jwt.png)
 
 Este diagrama oferece uma visão clara de como o middleware de autenticação atua como um portão para os recursos protegidos, garantindo que apenas requisições com tokens válidos possam prosseguir, enquanto a rota de login fornece o meio para obter esses tokens.
 
@@ -55,3 +54,7 @@ Para testar a API localmente:
 5.  Utilize uma ferramenta como o Insomnia ou Postman para enviar requisições:
     *   **Login:** Envie uma requisição `POST` para `http://localhost:3000/login` com o corpo JSON: `{ "user": "usuario@gmail.com", "psw": "a1b2@b3c4" }`. Você deve receber um token JWT na resposta.
     *   **Posts:** Envie uma requisição `GET` para `http://localhost:3000/posts`. Sem autenticação, você receberá um erro 401. Para autenticar, adicione um cabeçalho `Authorization` com o valor `Bearer <seu_token_jwt>` (substitua `<seu_token_jwt>` pelo token recebido no login ). Com o token válido, você receberá a lista de posts.
+  
+     [Print do Insominia](image.png)
+    ![Print do Insominia](token.png)
+
