@@ -1,6 +1,9 @@
 # Login - auth
+
+
+# Integrantes do grupo: Rodrigo, Willian, Fernando e Mellyssa
 Estrutura de autenticação para o projeto **Login**.
-## Atividade em grupo de até 3 integrantes.
+## Atividade em grupo de até 4 integrantes.
 - Clonar este repositório.
 - Testar a api com **insomnia**.
 - Estudar e documentar a estrutura do projeto.
@@ -46,8 +49,12 @@ Para testar a API localmente:
 
 1.  Clone o repositório.
 2.  Navegue até o diretório do projeto (onde `package.json` está localizado) via terminal.
-3.  Instale as dependências: `npm install`
-4.  Execute a aplicação com nodemon (para reiniciar automaticamente em caso de alterações): `npx nodemon server.js`
-5.  Utilize uma ferramenta como o Insomnia ou Postman para enviar requisições:
+3.  Entre na pasta api : `cd api`
+4.  Instale as dependências: `npm install`
+5.  Execute a aplicação com nodemon (para reiniciar automaticamente em caso de alterações): `npx nodemon server.js` 
+6.  Utilize uma ferramenta como o Insomnia ou Postman para enviar requisições:
     *   **Login:** Envie uma requisição `POST` para `http://localhost:3000/login` com o corpo JSON: `{ "user": "usuario@gmail.com", "psw": "a1b2@b3c4" }`. Você deve receber um token JWT na resposta.
     *   **Posts:** Envie uma requisição `GET` para `http://localhost:3000/posts`. Sem autenticação, você receberá um erro 401. Para autenticar, adicione um cabeçalho `Authorization` com o valor `Bearer <seu_token_jwt>` (substitua `<seu_token_jwt>` pelo token recebido no login ). Com o token válido, você receberá a lista de posts.
+
+    ![Print do Insominia](image.png)
+    ![Print do Insominia](token.png)
