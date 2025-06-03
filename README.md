@@ -2,6 +2,10 @@
 
 
 # Integrantes do grupo: Rodrigo, Willian, Fernando e Mellyssa
+=======
+#Integrantes do grupo: Rodrigo Passberg, Willan e Fernando.
+
+
 Estrutura de autenticação para o projeto **Login**.
 ## Atividade em grupo de até 4 integrantes.
 - Clonar este repositório.
@@ -38,8 +42,6 @@ A API expõe duas rotas principais que demonstram o fluxo de autenticação e ac
 ## Fluxo de Funcionamento (Diagrama de Atividades UML)
 
 O fluxo de trabalho da API, abrangendo tanto o processo de login quanto o acesso a rotas protegidas, pode ser visualizado no Diagrama de Atividades UML abaixo. Ele ilustra as etapas sequenciais, as decisões baseadas na validação de credenciais e tokens, e as respostas correspondentes enviadas ao cliente.
-
-![Diagrama de Atividades UML para API JWT](./diagrama_atividades_jwt.png)
 
 Este diagrama oferece uma visão clara de como o middleware de autenticação atua como um portão para os recursos protegidos, garantindo que apenas requisições com tokens válidos possam prosseguir, enquanto a rota de login fornece o meio para obter esses tokens.
 
