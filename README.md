@@ -1,4 +1,6 @@
 # Login - auth
+
+#Integrantes do grupo: Rodrigo Passberg, Willan e Fernando.
 Estrutura de autenticação para o projeto **Login**.
 ## Atividade em grupo de até 3 integrantes.
 - Clonar este repositório.
