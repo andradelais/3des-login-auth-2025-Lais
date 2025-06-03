@@ -1,14 +1,8 @@
 # Login - auth
 
-<<<<<<< HEAD
+
 
 # Integrantes do grupo: Rodrigo, Willian, Fernando e Mellyssa
-=======
-#Integrantes do grupo: Rodrigo Passberg, Willan e Fernando.
-=======
-#Integrantes do grupo: Rodrigo Passberg, Willan, Fernando e Mellyssa.
->>>>>>> 80e085f627e246f347f56a8b0044a44fc1622173
-
 
 Estrutura de autenticação para o projeto **Login**.
 ## Atividade em grupo de até 4 integrantes.
