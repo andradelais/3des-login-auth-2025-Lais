@@ -1,10 +1,10 @@
 # Login - auth
 
-#Integrantes do grupo: Rodrigo Passberg, Willan e Fernando.
+#Integrantes do grupo: Rodrigo Passberg, Willan, Fernando e Mellyssa.
 
 
 Estrutura de autenticação para o projeto **Login**.
-## Atividade em grupo de até 3 integrantes.
+## Atividade em grupo de até 4 integrantes.
 - Clonar este repositório.
 - Testar a api com **insomnia**.
 - Estudar e documentar a estrutura do projeto.
