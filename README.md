@@ -1,11 +1,9 @@
 # Login - auth
 
-
-
-# Integrantes do grupo: Rodrigo, Willian, Fernando e Mellyssa
+Feito por Lais Andrade
 
 Estrutura de autenticação para o projeto **Login**.
-## Atividade em grupo de até 4 integrantes.
+## Atividade em grupo de até 3 integrantes.
 - Clonar este repositório. 
 - Testar a api com **insomnia**.
 - Estudar e documentar a estrutura do projeto.
