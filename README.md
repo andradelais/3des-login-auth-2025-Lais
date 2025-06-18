@@ -12,6 +12,7 @@ Estrutura de autenticação para o projeto **Login**.
 - Detalhar e documentar as bibliotecas utilizadas.
 - Documentar descrição do funcionamento utilizando **UML DA(Diagrama de Atividades)**.
 
+<<<<<<< HEAD
 # Análise do Projeto Backend Node.js com Autenticação JWT
 
 Este documento detalha a análise do projeto backend fornecido, que implementa um sistema básico de autenticação utilizando JSON Web Tokens (JWT). A análise abrange a estrutura do projeto, as bibliotecas empregadas, o funcionamento das rotas da API e o fluxo geral de operações ilustrado por um Diagrama de Atividades UML.
@@ -59,3 +60,30 @@ Para testar a API localmente:
     ![Print do Insominia](image.png)
     ![Print do Insominia](token.png)
 
+=======
+## Tecnologias
+- Node.js
+- VsCode
+- Insomnia
+
+## Para testar
+- Clonar este repositório.
+- Na pasta **./api**, criar um arquivo **.env** com as seguintes **variáveis de ambiente**:
+```js
+SECRET_JWT=f?#cPV9]2sc"}gQhO)Yx7IT1M*zuv&;FVC(vsFAz;]n2tK:T*uH|@Ixrow3bLC+
+USER=usuario@gmail.com
+PASSWD=senha123
+```
+- Abrir com o VsCode e em um terminal cmd ou bash, executar os comandos a seguir para instalar as dependências e iniciar o servidor:
+```bash
+cd api
+npm install
+npx nodemon
+```
+- Testar com insomnia as rotas:
+```bash
+GET http://localhost:4000
+POST http://localhost:4000/login
+GET http://localhost:4000/posts
+```
+>>>>>>> 3c4cea38821098b5ae388f6fea4def5eeffe28b2

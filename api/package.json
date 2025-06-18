@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^2.2.0",
+=======
+>>>>>>> 3c4cea38821098b5ae388f6fea4def5eeffe28b2
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
