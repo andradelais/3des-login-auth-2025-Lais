@@ -12,7 +12,7 @@ const teste = (req, res) => {
     console.log('Rota de teste acessada');
 }
 
-app.use(cors());
+app.use(cors()); 
 app.use(express.json());
 app.get('/', teste);
 app.use(loginRoutes);
